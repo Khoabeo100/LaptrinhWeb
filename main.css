@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.NDK {
+    font-size: 60px;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 600px;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    font-size: 25px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 1000;
+
+}
+
+.navigation a:hover, 
+.navigation a.active
+ {
+    background: #359381;
+    color: #fff;
+ }
+
+ 
+ .parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ #text {
+    position: relative;
+    top: 75px;
+    font-size: 6.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+ }
+
+ .parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+
+ }
+ 
+ .sec {
+   display: flex;
+    /* position: relative;   */
+    top: 50px;
+    background: #003329;
+    margin-top: 40px;
+    padding: 100px;
+    
+ }
+
+ .sec h2 {
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 10px;
+
+ }
+
+
+ .sec p {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+    /* width: 950px; */
+ }
+
+
+.box{
+   margin-top: 75px;
+   margin-left: 100px;
+   margin-right: 40px;
+}
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+     max-width: 600px; 
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(38, 167, 113);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    position: inherit;
+  }
+  
+  button1:hover {
+    opacity: 0.7;
+  }
+
+
+  .hw{
+   background-color: #359381;
+   padding-bottom: 700px;
+   padding-top: 40px;
+  }
+
+  .hw h2{
+   font-size: 4em;
+   color: #fff;
+   margin-left: 95px;
+   margin-bottom: -50px;
+   margin-top: 8px;
+  }
+  .col{
+   display: flex;
+   float: left;
+   width: 100%;
+   margin-left: 120px;
+  }
+  .list{
+   font-size: 25px;
+   color: #fff;
+   text-align: center;
+   margin: 2%;
+   padding: 2%;
+  }
+
+  .menuitem{
+   background-color: #fff;
+   border: 3px solid #534848;
+   border-radius: 10px;
+   margin: 4px;
+   list-style-type: none;
+   padding: 20px;
+   text-align: center;
+   font-size: 15px;
+   color: black;
+  }
+
+  
+
+  
+  .sec2 {
+    background: rgb(255, 255, 255);
+    /* padding: 8px; */
+}
+
+ .sec2 h2 {
+    font-size: 2em;
+    color: rgb(149, 167, 163);
+    margin-bottom: 0px;
+    position: relative;
+    top:-10px;
+    text-align: center;
+ }
+
+ .parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .child:hover {
+    background-color: rgb(243, 241, 241);
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+    transform: perspective(180px) rotateX(60deg) translateY(2px);
+    box-shadow: 0px 10px 10px rgb(6, 184, 65);
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+    border-radius: 50%;
+  }
+
+  
