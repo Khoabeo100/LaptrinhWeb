@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Bai 30%/Bai30.html"
+    "livePreview.defaultPreviewPath": "/Bai 30%/Bai30.html",
+    "liveServer.settings.port": 5501
 }
