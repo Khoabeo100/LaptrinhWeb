@@ -20,7 +20,7 @@ header {
     
 }
 h2{
-    margin-left: 25px;
+    /* margin-left: 25px; */
     margin-right: -70px;
 }
 
@@ -375,7 +375,7 @@ h2{
     height: 483px;
     position: absolute;
     right: 800px;
-    top: 2234px;
+    top: 2585px;
     background-color: rgba(252, 195, 2, 0.5);
     display: none;
     cursor: pointer;
@@ -459,14 +459,14 @@ h2{
     z-index: -1;
     position: absolute;
     right: 510px;
-    top: 960px;
+    top: 1307px;
 }
 .icon-play{
     width: 510px;
     height: 483px;
     position: absolute;
     right: 210px;
-    top: 856px;
+    top: 1207px;
     background-color: rgba(252, 195, 2, 0.5);
     display: none;
     cursor: pointer;
