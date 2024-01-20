@@ -7,7 +7,13 @@
 
 }
 
-
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; 
+    margin: 0;
+  }
 
 header {
     position: fixed;
@@ -19,28 +25,32 @@ header {
     justify-content: flex-start;
     align-items: center;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
-.NDK {
-    font-size: 60px;
-    color: #2232c7;
-    pointer-events: none;
-    margin-right: 300px;
+.NDK img {
+    margin-right: 0%; 
+    display: inline-block; 
+    width: 28%;
 }
+
 
 li{
     display: inline-block;
     position: relative;
-    color: #fff;
-    font-size: 40px;
+    background: linear-gradient(to right, #e0c10c, #daac25, #f5dd09); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-size: 2.5em;
     cursor: pointer;
     transition: 0.4s all ease;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 li:hover{
-color: #2232c7;
+background: linear-gradient(to right, #00376d, #0167cc, #014486); /* Gradient từ xanh biển đậm đến xanh biển sáng */
+-webkit-background-clip: text; 
+color: transparent; 
 transition: 0.4s all ease;
 }
 
@@ -52,7 +62,7 @@ li::after{
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #0051ff;
+    background-color: #d8ca06;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 
@@ -69,6 +79,39 @@ li:hover::after{
     left: 0;
     width: 100%;
     pointer-events: none;
-
-
+    z-index: -1;
  }
+
+.text {
+    position: relative;
+    right: 50%;
+    top: 130px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    background: linear-gradient(to right, #af9605, #ccb35f, #fcee9e); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+.gradient-line {
+    position: relative;
+    right: 50%;
+    top: 130px;
+    margin: 0 auto ;
+    width: 70%;
+    height: 2px; 
+    background: linear-gradient(to right, #ffd700, #ffc200, #ffd700);
+}
+
+.text1 {
+    position: relative;
+    right: 50%;
+    top: 130px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: lighter;
+    background: linear-gradient(to right, #af9605, #ccb35f, #fcee9e); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
