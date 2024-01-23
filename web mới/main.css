@@ -13,19 +13,20 @@ body {
     justify-content: center;
     height: 70vh; 
     margin: 0;
+    background-color: #0e352d;
   }
 
 header {
     position: fixed;
     top: 0;
     left: 0;
+    height: 150px;
     width: 100%;
     padding: 15px 70px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 100;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .NDK img {
@@ -38,7 +39,7 @@ header {
 li{
     display: inline-block;
     position: relative;
-    background: linear-gradient(to right, #e0c10c, #daac25, #f5dd09); 
+    background: linear-gradient(to right, #211c02, #372c0a, #201d01); 
     -webkit-background-clip: text; 
     color: transparent; 
     font-size: 2.5em;
@@ -48,7 +49,7 @@ li{
 }
 
 li:hover{
-background: linear-gradient(to right, #00376d, #0167cc, #014486); /* Gradient từ xanh biển đậm đến xanh biển sáng */
+background: linear-gradient(to right, #00376d, #0167cc, #014486);
 -webkit-background-clip: text; 
 color: transparent; 
 transition: 0.4s all ease;
@@ -62,7 +63,7 @@ li::after{
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #d8ca06;
+    background: linear-gradient(to right, #00376d, #0167cc, #014486);
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 
@@ -74,7 +75,7 @@ li:hover::after{
 }
 
 .back img {
-    position: absolute;
+    position: ;
     top: 0;
     left: 0;
     width: 100%;
@@ -83,12 +84,10 @@ li:hover::after{
  }
 
 .text {
+     font-size: 3.5em;
     position: relative;
-    right: 50%;
     top: 130px;
     text-align: center;
-    font-size: 4em;
-    font-weight: bold;
     background: linear-gradient(to right, #af9605, #ccb35f, #fcee9e); 
     -webkit-background-clip: text; 
     color: transparent; 
@@ -96,17 +95,15 @@ li:hover::after{
 
 .gradient-line {
     position: relative;
-    right: 50%;
     top: 130px;
     margin: 0 auto ;
-    width: 70%;
+    width: 60%;
     height: 2px; 
     background: linear-gradient(to right, #ffd700, #ffc200, #ffd700);
 }
 
 .text1 {
     position: relative;
-    right: 50%;
     top: 130px;
     text-align: center;
     font-size: 2.5em;
@@ -115,3 +112,8 @@ li:hover::after{
     -webkit-background-clip: text; 
     color: transparent; 
 }
+
+/* .hop1{
+    background-color: #0e352d;
+    padding: 100px;
+} */
